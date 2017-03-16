@@ -1,0 +1,185 @@
+@keyframes arrow
+{
+    from {bottom: 5%;}
+    to {bottom: 10%;}
+}
+
+@-moz-keyframes arrow /* Firefox */
+{
+    from {bottom: 5%;}
+    to {bottom: 10%;}
+}
+
+@-webkit-keyframes arrow /* Safari 和 Chrome */
+{
+    from {bottom: 5%;}
+    to {bottom: 10%;}
+}
+
+@-o-keyframes arrow /* Opera */
+{
+    from {bottom: 5%;}
+    to {bottom: 10%;}
+}
+
+.arrow {
+    animation: arrow 1s infinite;
+    -moz-animation: arrow 1s infinite;
+    -webkit-animation: arrow 1s infinite;
+    -o-animation: arrow 1s infinite;
+}
+
+@keyframes animation5
+{
+    from {width: 0;}
+    to {width: 98%;}
+}
+
+@-moz-keyframes animation5 /* Firefox */
+{
+    from {width: 0;}
+    to {width: 98%;}
+}
+
+@-webkit-keyframes animation5 /* Safari 和 Chrome */
+{
+    from {width: 0;}
+    to {width: 98%;}
+}
+
+@-o-keyframes animation5 /* Opera */
+{
+    from {width: 0;}
+    to {width: 98%;}
+}
+
+.animation5 {
+    animation: animation5 1s;
+    -moz-animation: animation5 1s;
+    -webkit-animation: animation5 1s;
+    -o-animation: animation5 1s;
+}
+
+@keyframes animation6
+{
+    from {height: 0;}
+    to {height: 55%;}
+}
+
+@-moz-keyframes animation6 /* Firefox */
+{
+    from {height: 0;}
+    to {height: 55%;}
+}
+
+@-webkit-keyframes animation6 /* Safari 和 Chrome */
+{
+    from {height: 0;}
+    to {height: 55%;}
+}
+
+@-o-keyframes animation6 /* Opera */
+{
+    from {height: 0;}
+    to {height: 55%;}
+}
+
+.animation6 {
+    animation: animation6 1s;
+    -moz-animation: animation6 1s;
+    -webkit-animation: animation6 1s;
+    -o-animation: animation6 1s;
+}
+
+@keyframes animation19
+{
+    from {height: 0;}
+    to {height: 67%;}
+}
+
+@-moz-keyframes animation19 /* Firefox */
+{
+    from {height: 0;}
+    to {height: 67%;}
+}
+
+@-webkit-keyframes animation19 /* Safari 和 Chrome */
+{
+    from {height: 0;}
+    to {height: 67%;}
+}
+
+@-o-keyframes animation19 /* Opera */
+{
+    from {height: 0;}
+    to {height: 67%;}
+}
+
+.animation19 {
+    animation: animation19 1s;
+    -moz-animation: animation19 1s;
+    -webkit-animation: animation19 1s;
+    -o-animation: animation19 1s;
+}
+
+@keyframes animation20
+{
+    from {transform: rotateX(90deg);}
+    to {transform: rotateX(0);}
+}
+
+@-moz-keyframes animation20 /* Firefox */
+{
+    from {transform: rotateX(90deg);}
+    to {transform: rotateX(0);}
+}
+
+@-webkit-keyframes animation20 /* Safari 和 Chrome */
+{
+    from {transform: rotateX(90deg);}
+    to {transform: rotateX(0);}
+}
+
+@-o-keyframes animation20 /* Opera */
+{
+    from {transform: rotateX(90deg);}
+    to {transform: rotateX(0);}
+}
+
+.animation20 {
+    animation: animation20 .5s;
+    -moz-animation: animation20 .5s;
+    -webkit-animation: animation20 .5s;
+    -o-animation: animation20 .5s;
+}
+
+@keyframes animation21
+{
+    from {transform: rotateY(90deg);}
+    to {transform: rotateY(0);}
+}
+
+@-moz-keyframes animation21 /* Firefox */
+{
+    from {transform: rotateY(90deg);}
+    to {transform: rotateY(0);}
+}
+
+@-webkit-keyframes animation21 /* Safari 和 Chrome */
+{
+    from {transform: rotateY(90deg);}
+    to {transform: rotateY(0);}
+}
+
+@-o-keyframes animation21 /* Opera */
+{
+    from {transform: rotateY(90deg);}
+    to {transform: rotateY(0);}
+}
+
+.animation21 {
+    animation: animation21 .5s;
+    -moz-animation: animation21 .5s;
+    -webkit-animation: animation21 .5s;
+    -o-animation: animation21 .5s;
+}

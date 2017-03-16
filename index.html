@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>厉凡 & 陈丹 婚礼请柬</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <link href="./style.zip.css" rel="stylesheet">
+  <!--<link href="./animation.css" rel="stylesheet">-->
+  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">-->
+  <link href="./libs/animate.min.css" rel="stylesheet">
+  
+
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>-->
+  <script src="./libs/hammer.min.js"></script>
+
+  <script type="text/javascript">
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        audioAutoPlay('media');//给个全局函数
+    }, false);
+    document.addEventListener('YixinJSBridgeReady', function() {
+        audioAutoPlay('media');//给个全局函数
+    }, false);
+  </script>
+</head>
+<body>
+    <div id="container" class="container">
+        <audio id="media" class="media-audio" src="http://m2.music.126.net/TLhm8lJmGIRiXWPPaqzAFg==/1148989651036693.mp3" preload loop="loop"></audio >
+        <div id="loading" class="scene">
+            <img id="loading-image">
+        </div>
+        <div id="scene-one" class="scene">
+            <div id="animation4" class="bg">
+                <img>
+            </div>
+            <div id="animation1" class="bg">
+                <img>
+            </div>
+            <div id="animation2" class="bg">
+                <img>
+            </div>
+            <div id="animation3" class="bg">
+                <img>
+            </div>
+        </div>
+        <div id="scene-two" class="scene">
+            <img id="animation7">
+            <img id="animation10">
+            <div id="animation8" class="bg">
+                <img>
+            </div>
+            <div id="animation9">
+                <h2>We Fell in Love</h2>
+                <span>感谢青春正好的年纪遇见你</span>
+            </div>
+            <div id="animation5"></div>
+            <div id="animation6"></div>
+        </div>
+        <div id="scene-three" class="scene">
+            <div id="animation12" class="bg">
+                <img>
+            </div>
+            <div id="animation13">
+                <h2>The most beautiful bride</h2>
+                <span>自从你出现后，我才知道原来有人爱是那么的美好..</span>
+            </div>
+            <img id="animation11">
+            <img id="animation14">
+            <img id="animation15">
+        </div>
+        <div id="scene-four" class="scene">
+            <img id="animation16">
+            <div id="animation23" class="bg">
+                <img>
+            </div>
+            <div id="animation22">
+                <h4>You are my most important decision.</h4>
+                <span>与你从恋爱到结婚，</span><br>
+                <span>是我一辈子最值得骄傲炫耀的事情。</span>
+            </div>
+            <img id="animation20">
+            <img id="animation21">
+            <div id="animation17"></div>
+            <div id="animation18"></div>
+            <div id="animation19"></div>
+        </div>
+        <div id="scene-five" class="scene">
+            <div id="bg-pic" class="bg">
+                <img>
+            </div>
+            <div id="animation26"></div>
+            <div class="bg">
+                <img id="animation24">
+                <img id="animation25">
+                <img id="animation27">
+            </div>
+            <div id="animation28" class="bg">
+                <img>
+            </div>
+            <div id="animation29" class="bg">
+                <h5>诚挚的邀请你来参加我们的婚礼</h5>
+            </div>
+        </div>
+        <div id="scene-six">
+            <div class="bg">
+                <img id="pic2">
+            </div>
+            <div id="animation30" class="bg">
+                <img>
+            </div>
+            <div id="animation31" class="bg">
+                <img>
+            </div>
+            <div id="animation33">
+                <h5>我们将于2017年5月20日</h5>
+                <h5>晚上18:00(星期六)</h5>
+                <h5>举行结婚典礼。</h5>
+                <h5>宴会地点：南京市大厂区葛关路688号(近葛塘转盘)</h5>
+                <h5>扬子宾馆宴客厅(近葛塘转盘)</h5>
+            </div>
+        </div>
+        <div id="arrow">
+            <img class="arrow">
+        </div>
+    </div>
+    
+</body>
+<script>
+  function audioAutoPlay(id){//全局控制播放函数
+      var audio = document.getElementById(id),
+          play = function(){
+              audio.play();
+              document.removeEventListener("touchstart",play, false);
+          };
+      audio.play();
+      document.addEventListener("touchstart",play, false);
+  }
+  
+  var isAppInside=/micromessenger/i.test(navigator.userAgent.toLowerCase())||/yixin/i.test(navigator.userAgent.toLowerCase());
+  if(!isAppInside){//给非微信易信浏览器
+    audioAutoPlay('media');
+  }
+</script>
+<script src="index.zip.js"></script>
+</html>
